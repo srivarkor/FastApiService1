@@ -4,7 +4,7 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get("/all")
-aysnc def all_events():
+async def all_events():
     return {
         "events":{
             "enagement":{
