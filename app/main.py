@@ -3,7 +3,7 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/all")
+@app.get("/events/all")
 async def all_events():
     return {
         "events":{
