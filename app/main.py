@@ -24,6 +24,12 @@ async def all_events():
                 "fromtime":"260120222230",
                 "venuelat":"30.075",
                 "venuelong":"54.824"
+            },
+            "poolparty":{
+                "eventname":"poolparty",
+                "fromtime":"280120222230",
+                "venuelat":"80.075",
+                "venuelong":"94.824"
             }
         }
     }
