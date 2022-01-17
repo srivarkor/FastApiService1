@@ -27,3 +27,4 @@ async def all_events():
             }
         }
     }
+
