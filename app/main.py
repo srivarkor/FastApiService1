@@ -10,7 +10,7 @@ app = FastAPI()
 #     allow_headers=["*"],
 # )
 
-@app.get("/events/all")
+@app.get("/events")
 async def all_events():
     return {
         "events":{
